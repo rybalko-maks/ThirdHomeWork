@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>It-incubator precourse</title>
+</head>
+<body data-cy="hw3-body-pre">
+    <header data-cy="hw3-header">
+        <div class="container">
+            <span data-cy="hw3-header-span">IT-INCUBATOR</span>
+        </div>
+    </header>
+
+    <section class="main-section" data-cy="hw3-section-main-pre">
+        <div class="container">
+            <div class="wrapper">
+                <div class="text-wrapper" data-cy="hw3-text-wrapper-pre">
+                    <h1 class="main-title" data-cy="hw3-main-title">Рыбалко Максим Анатольевич</h1>
+                    <p class="main-text" data-cy="hw3-text">Работаю производителем работ в электромонтаже. В связи со спецификой профессии, объездил пол России (и не только) и работал на на многих крупных строительных проектах (БелАЭС,УКПГ-2, Арктик СПГ-2 и т.д.) Люблю книги и сериалы</p>
+                </div>
+                    <img class="main-image" data-cy="hw3-main-image" src="https://i.pinimg.com/564x/ee/32/7b/ee327bc500b5381b87f5632a37690e42.jpg" alt="Цитата">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" data-cy="hw3-section-about-pre">
+        <div class="container">
+            <div class="wrapper">
+                <select data-cy="hw3-select-pre" name="city">
+                    <option value="Toronto">Торонто</option>
+                    <option value="Mostovskoy" selected>Мостовской</option>
+                    <option value="Tokyo">Токио</option>
+                    <option value="Saint-Petersburg">Санкт-Петербург</option>
+                </select>
+
+                <div class="info-wrapper" data-cy="hw3-info-wrapper-pre">
+                    <div class="frameworks" data-cy="hw3-frameworks-pre">
+                        <h2 class="section-title" data-cy="hw3-section-title-pre">Топ 5 сериалов</h2>
+                        <ul class="frameworks-list" data-cy="hw3-frameworks-list-pre">
+                            <li>Декстер</li>
+                            <li>Во все тяжкие</li>
+                            <li>Теория большого взрыва</li>
+                            <li>Друзья</li>
+                            <li>Остаться в живых</li>
+                        </ul>
+                </div>
+                <div class="books" data-cy="hw3-books-pre">
+                        <h2 class="section-title" data-cy="hw3-section-title-pre">Топ 5 книг</h2>
+                        <ol class="books-list" data-cy="hw3-books-list-pre">
+                            <li>Серия романов "Песнь льда и пламени"</li>
+                            <li>Серия романов "Тёмная башня"</li>
+                            <li>Серия романов "Ведьмак"</li>
+                            <li>Сияние</li>
+                            <li>Первому игроку пригтовиться</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="skills-wrapper">
+                    <h2 class="section-title" data-cy="hw3-section-title-pre">Мои скиллы</h2>
+
+                    <div class="skills-block" data-cy="hw3-skills-block-pre">
+                        <div class="skills" data-cy="hw3-skills-pre">
+                            <label class="label" data-cy="hw3-label-pre" for="1">
+                                <input type="checkbox" name="technology" value="html" checked>
+                                HTML5
+                            </label>
+
+                            <label class="label" data-cy="hw3-label-pre" for="2">
+                                <input type="checkbox" name="technology" value="CSS3">
+                                CSS3
+                            </label>
+
+                            <label class="label" data-cy="hw3-label-pre" for="3">
+                                <input type="checkbox" name="technology" value="JavaScript">
+                                JavaScript
+                            </label>
+
+                            <label class="label" data-cy="hw3-label-pre" for="4">
+                                <input type="checkbox" name="technology" value="Jquery">
+                                Jquery
+                            </label>
+
+                            <label class="label" data-cy="hw3-label-pre" for="5">            
+                                <input type="checkbox" name="technology" value="React">
+                                React
+                            </label>
+                        </div>
+
+                        
+                        <form>
+                            <input class="text-field" data-cy="hw3-text-field-pre" type="text" placeholder="Новый скилл">
+                            <button class="btn" data-cy="hw3-btn-pre">Добавить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="line" data-cy="hw3-line-pre">
+        
+            <table data-cy="hw3-about-table-pre" border="1">
+                <tr>
+                    <th>п/п</th>
+                    <th>Наименование</th>
+                    <th>Количество</th>
+                    </tr>
+                <tr>
+                    <th>1</th>
+                    <td>Песнь льда и пламени</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Ведьмак</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Тёмная башня</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Итого:</td>
+                    <td>18</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer data-cy="hw3-footer-pre">
+        <a class="footer-link" data-cy="hw3-footer-link-pre" href="https://it-incubator.io/">it-incubator</a>
+    </footer>
+</body>
+</html>
