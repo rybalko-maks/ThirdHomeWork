@@ -39,8 +39,9 @@ header span {
 
 .main-section .wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: normal;
+    align-items: center;
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
