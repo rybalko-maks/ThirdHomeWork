@@ -40,7 +40,7 @@ header span {
 .main-section .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: normal;
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
